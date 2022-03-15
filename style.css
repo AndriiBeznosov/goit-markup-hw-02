@@ -1,0 +1,135 @@
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.714em;
+    letter-spacing: 0.03em;
+    width: 1600px;
+    height: auto;
+}
+a {
+   text-decoration: none;
+   color: rgb(0, 0, 0); 
+}
+.table {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    width: 1600px;
+}
+.logo-color {
+    color: #2196F3;
+}
+.logo-header {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192em;
+    padding: 24px 0 25px 215px;
+    margin-right: 53px;
+}
+.table-nav {
+    margin: 32px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.table-nav a,
+.table-info a {
+    padding-left: 50px;
+}
+.table-info {
+    padding-left: 291px;
+}
+.table-info a{
+    color: #757575;
+}
+.table-nav a:hover,
+.table-info a:hover {
+    color: #2196F3;
+}
+.main-section {
+    background-color: #2F303A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1600px;
+    height: 600px; 
+}
+.main-section h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    letter-spacing: 0.06em;
+    line-height: 1.32em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-section button {
+    background-color: #2196F3;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 1.875em;
+    border-radius: 4px;
+    border: #2196F3;
+}
+.section-info {
+    width: 1170px;
+    height: 101px;
+    margin: 94px 215px 94px 215px; 
+}
+.section-info li {
+    width: 270px;
+    height: 101px;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.section-info h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14em;
+    text-transform: uppercase;
+    color: #212121;
+    margin: 0 0 10px 0;
+}
+.section-info p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714em;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 0px;
+}
+.section-info ul{
+    padding:0;
+    margin: 0;
+}
+
+
+
+
+
+
