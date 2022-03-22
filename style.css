@@ -6,6 +6,7 @@
     --logo-color :#000000;
     --bgr-color :#2F303A;
     --secondary-bgr-color :#F5F4FA;
+    --button-hover : #188CE8;
 
 }
 body {
@@ -16,8 +17,9 @@ body {
     color: var(--primary-text-color);
 }
 ul {
-    list-style: none;
+    list-style: none;  
 }
+
 header .activ {
     color: var(--accent-color);
 }
@@ -80,6 +82,10 @@ header .activ {
     color: var(--primary-whity-color);
     cursor: pointer;
 }
+.main-btm:hover,
+.main-btm:focus {
+    background-color: var(--button-hover);
+}
 .main-subtitle {
     font-weight: 700;
     font-size: 14px;
@@ -136,6 +142,9 @@ header .activ {
 .footer-logo-color {
     color: var(--accent-color);
 }
+.address {
+    font-style: normal;
+}
 .footer-addres {
     font-size: 14px;
     line-height: 1.714;
@@ -172,6 +181,9 @@ header .activ {
 .activ-btm {
     background-color: var(--accent-color);
     color: var(--primary-whity-color);
+}
+.link-project {
+    text-decoration: none;
 }
 .main-project {
     font-weight: 700;
